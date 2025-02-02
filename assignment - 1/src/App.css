@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #3182ce;
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  nav {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Align nav items in a row */
+    justify-content: center; /* Center nav items */
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #3182ce;
+  }
+  
+  nav ul li a:hover {
+    color: #2b6cb0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For tablets and mobile devices */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Reduce the font size for smaller screens */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack navigation items vertically */
+    }
+  
+    nav ul li {
+      margin: 10px 0; /* Increase the spacing between items */
+    }
+  
+    nav ul li a {
+      font-size: 1rem; /* Adjust font size for mobile */
+    }
+  
+    .container {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.2rem; /* Adjust heading size for mobile */
+    }
+  }
+  
+  /* For small mobile devices */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem; /* Smaller font size for very small screens */
+    }
+  
+    nav ul li {
+      margin: 8px 0; /* More compact spacing */
+    }
+  
+    nav ul li a {
+      font-size: 0.9rem; /* Further decrease font size for very small screens */
+    }
+  
+    .container {
+      padding: 10px; /* Reduce padding for very small screens */
+    }
+  
+    h2 {
+      font-size: 1rem; /* Smaller font size for h2 */
+    }
+  }
+  

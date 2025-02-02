@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Styles */
+  input[type="text"], select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Registration List Styles */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  li button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Confirmed Registrations */
+  li span {
+    color: green;
+  }
+  
+  li span:before {
+    content: "✅ ";
+  }
+  
+  /* Disabled Button for Confirmed Registration */
+  button[disabled] {
+    background-color: #f0f0f0;
+    color: #aaa;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For tablets and mobile devices */
+  @media (max-width: 768px) {
+    input[type="text"], select {
+      width: 100%; /* Make input and select fields full-width */
+    }
+  
+    button {
+      width: 100%; /* Make the button full-width on smaller screens */
+      margin-right: 0; /* Remove right margin */
+    }
+  
+    ul {
+      padding-left: 10px; /* Adjust padding for list on smaller screens */
+    }
+  
+    li {
+      flex-direction: column; /* Stack the list items vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    li button {
+      width: 100%; /* Make list item buttons full-width */
+      margin-top: 10px; /* Add space between button and other elements */
+    }
+  }
+  
+  /* For small mobile devices */
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.5rem; /* Reduce font size of heading */
+    }
+  
+    input[type="text"], select {
+      font-size: 14px; /* Adjust font size of input fields */
+    }
+  
+    button {
+      font-size: 14px; /* Adjust font size of buttons */
+    }
+  }
+  
