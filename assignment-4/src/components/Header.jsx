@@ -7,13 +7,12 @@ const Header = () => {
   return (
     <header className="relative bg-white shadow-sm">
       <div className="flex justify-between items-center px-6 py-4">
-        {/* Logo */}
         <div className="text-2xl font-bold flex items-center gap-2">
           <div className="w-5 h-5 bg-black rotate-45"></div>
           Positivus
         </div>
 
-        {/* Desktop Nav */}
+       
         <nav className="hidden md:flex gap-8 text-gray-800">
           <a href="#">About us</a>
           <a href="#">Services</a>
@@ -22,12 +21,12 @@ const Header = () => {
           <a href="#">Blog</a>
         </nav>
 
-        {/* Request Quote Button */}
+    
         <button className="hidden md:block border border-gray-800 px-4 py-2 rounded-md hover:bg-gray-100">
           Request a quote
         </button>
 
-        {/* Hamburger Menu Button */}
+     
         <button
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -37,7 +36,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+  
       {menuOpen && (
         <div className="md:hidden bg-white px-6 pb-4 space-y-4 text-gray-800">
           <a href="#" className="block">About us</a>

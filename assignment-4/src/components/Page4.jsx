@@ -29,7 +29,7 @@ const Page4 = () => {
           </div>
         </div>
 
-        {/* Pagination & Arrows */}
+     
         <div className="flex items-center justify-center gap-4 text-white">
           <ArrowLeft className="cursor-pointer" />
           <div className="flex gap-1">
