@@ -39,7 +39,7 @@ function App() {
   return (
     
     <div>
-      <h2>Razorpay Intergration</h2>
+      <h2 className="bg-red-400">Razorpay Intergration</h2>
       <input 
       type="number"
       placeholder="Enter the amount"
