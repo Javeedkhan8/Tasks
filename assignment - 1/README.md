@@ -1,8 +1,18 @@
-# React + Vite
+# Student Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application built using **React** for managing student registrations. This system allows users to register students, view the list of registered students, and edit or delete student details.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Student Registration**: Users can add new students by entering details like name, email, and course.
+- **View Students**: Displays a list of all registered students with their details.
+- **Edit Student Details**: Users can edit existing student information.
+- **Delete Students**: Users can remove students from the registration list.
+- **Data Persistence**: The application supports adding, editing, and deleting students.
+
+## Tech Stack
+
+- **Frontend**: React.js
+- **State Management**: React `useState`, `useEffect`
+- **Styling**: Tailwindcss
+

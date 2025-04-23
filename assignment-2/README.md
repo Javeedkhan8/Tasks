@@ -1,8 +1,26 @@
-# React + Vite
+# Recipe Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React & Redux application that lets users search for recipes by keyword and view detailed recipe information. Recipes are fetched in real-time from an external API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🥘 Features
+
+- **Search Recipes** by keyword  
+- **View Search Results** in a paginated list  
+- **View Recipe Details** (ingredients, instructions, nutrition)  
+- **Redux State Management** for search term, results, loading & error states  
+- **Responsive UI** built with CSS (or your preferred styling library)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (functional components & hooks)  
+- **Redux** & **React-Redux** for global state  
+- **Redux Thunk** (or Redux Saga) for async API calls  
+- **Fetch API** or **Axios** for HTTP requests  
+- **React Router** for client-side routing  
+- **CSS3** / **Tailwind CSS** / **Sass** for styling
+
+
